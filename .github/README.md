@@ -1,7 +1,7 @@
 # REPO MUSIC
 
 ### KOTARO MUSIC
-<img src="https://telegra.ph//file/9c012b9f4ba3f0141520c.jpg">
+<img src="https://telegra.ph//file/7fc2a47243d81a3765262.jpg">
 
 ### BACA YA
 INI START NYA UDAH ILANG(KHUSUS DI GABUNGIN AMA MANAGE BIAR GAK TABRAKAN)
