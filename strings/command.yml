@@ -28,7 +28,7 @@ STREAM_COMMAND : ["stream", "cstream", "streamforce"]
 
 #Playlists Command
 PLAYLIST_COMMAND : ["playlist"]
-DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
+DELETEPLAYLIST_COMMAND : ["dplaylist"]
 
 
 # Tools
@@ -65,7 +65,7 @@ BROADCAST_COMMAND : ["gcast"]
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
 WHITELISTCHAT_COMMAND : ["whitelistchat"]
-BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
+BLACKLISTEDCHAT_COMMAND : ["blacklisted"]
 
 # Video Calls Command
 VIDEOLIMIT_COMMAND : ["set_video_limit"]
@@ -76,10 +76,10 @@ MAINTENANCE_COMMAND : ["maintenance"]
 LOGGER_COMMAND : ["logger"]
 
 #Heroku
-GETLOG_COMMAND : ["get_log"]
-GETVAR_COMMAND : ["get_var"]
-DELVAR_COMMAND : ["del_var"]
-SETVAR_COMMAND : ["set_var"]
+GETLOG_COMMAND : ["getlog"]
+GETVAR_COMMAND : ["getvar"]
+DELVAR_COMMAND : ["delvar"]
+SETVAR_COMMAND : ["setvar"]
 USAGE_COMMAND : ["musage"]
 VARS_COMMAND : ["vars", "config"]
 
@@ -97,16 +97,16 @@ AUTHORIZED_COMMAND : ["authorized"]
 #Block Users Command
 BLOCK_COMMAND : ["block"]
 UNBLOCK_COMMAND : ["unblock"]
-BLOCKED_COMMAND : ["blockedusers"]
+BLOCKED_COMMAND : ["blocked"]
 
 #sPEEDTEST
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["vcs"]
-ACTIVEVIDEO_COMMAND : ["vcv"]
+ACTIVEVC_COMMAND : ["am"]
+ACTIVEVIDEO_COMMAND : ["av"]
 
 #Gban Commands
 GBAN_COMMAND : ["mgban"]
 UNGBAN_COMMAND : ["mungban"]
-GBANNED_COMMAND : ["mgbannedusers"]
+GBANNED_COMMAND : ["mgbanned"]
