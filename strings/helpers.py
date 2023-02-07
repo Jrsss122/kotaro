@@ -56,7 +56,7 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 
 ✅**<u>Bot's Server Playlists:</u>**
 /playlist  - Periksa Daftar Putar Tersimpan Anda Di Server.
-/deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda
+/dplaylist - Hapus semua musik yang disimpan di daftar putar Anda
 /play - Mulai mainkan Daftar Putar Tersimpan Anda dari Server."""
 
 
@@ -64,7 +64,7 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 /mstats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
 
-/msudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
+/sudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
 
 /mlyrics [Music Name] - Mencari Lirik untuk Musik tertentu di web.
 
@@ -79,7 +79,7 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /mstart - Mulai Bot Musik.
 /mhelp - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
-/mping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
+/zika- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 
 ✅<u>**Group Settings:**</u>
 /msettings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
@@ -116,9 +116,9 @@ HELP_5 = """🔰TAMBAH & HAPUS PENGGUNA SUDO :
 /musage - Dyno Usage.
 
 🌐**<u>CONFIG VARS:</u>**
-/get_var - Dapatkan config var dari Heroku atau .env.
-/del_var - Hapus semua var di Heroku atau .env.
-/set_var [Var Name] [Value] - Atur Var atau Perbarui Var di heroku atau .env.  Pisahkan Var dan Nilainya dengan spasi.
+/getvar - Dapatkan config var dari Heroku atau .env.
+/delvar - Hapus semua var di Heroku atau .env.
+/setvar [Var Name] [Value] - Atur Var atau Perbarui Var di heroku atau .env.  Pisahkan Var dan Nilainya dengan spasi.
 
 PERINTAH BOT:
 /reboot - Nyalakan ulang Bot Anda.
@@ -126,33 +126,33 @@ PERINTAH BOT:
 /speedtest - Periksa kecepatan server
 /maintenance [Enable / Disable]
 /logger [Enable / Disable] - Bot mencatat kueri yang dicari di grup logger.
-/get_log [Jumlah Baris] - Dapatkan log bot Anda dari heroku atau vps.  Bekerja untuk keduanya.
+/getlog [Jumlah Baris] - Dapatkan log bot Anda dari heroku atau vps.  Bekerja untuk keduanya.
 /autoend [enable|disable] - Aktifkan Auto stream end setelah 3 menit jika tidak ada yang mendengarkan.
 
 📈**<u>STATS COMMANDS:</u>**
-/vcs - Periksa obrolan suara aktif di bot.
-/vcv - Periksa panggilan video aktif di bot.
+/am - Periksa obrolan suara aktif di bot.
+/av - Periksa panggilan video aktif di bot.
 /gstats - Periksa Statistik Bot
 
 ⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
 /blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
 /whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
-/blacklistedchat - Check all blacklisted chats.
+/blacklisted - Check all blacklisted chats.
 
 👤**<u>FUNGSI BLACKLIST CHAT:**
 /blacklistchat [CHAT_ID] - Daftar hitam obrolan apa pun dari menggunakan Bot Musik
 /whitelistchat [CHAT_ID] - Daftar putih obrolan apa pun yang masuk daftar hitam dari menggunakan Bot Musik
-/blacklistedchat - Periksa semua obrolan yang masuk daftar hitam.
+/blacklisted - Periksa semua obrolan yang masuk daftar hitam.
 
 FUNGSI TERBLOKIR:
 /block [Nama Pengguna atau Balas ke pengguna] - Mencegah pengguna menggunakan perintah bot.
 /unblock [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar Blokir Bot.
-/blockedusers - Periksa Daftar Pengguna yang diblokir
+/blocked - Periksa Daftar Pengguna yang diblokir
 
 FUNGSI GBAN:
 /mgban [Nama Pengguna atau Balas ke pengguna] - Gban pengguna dari obrolan yang dilayani bot dan hentikan dia menggunakan bot Anda.
 /mungban [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
-/mgbannedusers - Periksa Daftar Pengguna Gbanned
+/mgbanned - Periksa Daftar Pengguna Gbanned
 
 🎥**<u>FUNGSI VIDEOCALL:**
 /set_video_limit [Jumlah Obrolan] - Tetapkan Jumlah Obrolan maksimum yang diizinkan untuk Panggilan Video dalam satu waktu.  Default untuk 3 obrolan.
