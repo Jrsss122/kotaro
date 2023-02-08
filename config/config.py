@@ -68,7 +68,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/heinoob"
 )  # Example:- https://t.me/kokbisadek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ZikaSupportGtoup"
+    "SUPPORT_GROUP", "https://t.me/ZikaSupportGroup"
 )  # Example:- https://t.me/pantekyks
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
