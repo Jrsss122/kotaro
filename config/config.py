@@ -68,7 +68,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/heinoob"
 )  # Example:- https://t.me/kokbisadek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/kotarosupport"
+    "SUPPORT_GROUP", "https://t.me/ZikaSupportGtoup"
 )  # Example:- https://t.me/pantekyks
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -165,7 +165,9 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv(
+    "START_IMG_URL",
+    "assets/kotaro.jpeg",
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
