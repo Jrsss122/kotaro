@@ -77,7 +77,7 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 /queue or /cqueue- Check Queue List of Music."""
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
-/mstart - Mulai Bot Musik.
+/start - Mulai Bot Musik.
 /mhelp - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
 /zika- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 
